@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <body>
+      <!-- header -->
+      <header>
+        <img src="./images/logo-bonus.svg" alt="game logo" />
+        <div class="score_board">
+          <p>score</p>
+          <h1>0</h1>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <!-- top btn -->
+        <div class="top">
+          <!-- scissors -->
+          <a href="scissorspage.html" class="scissors" aria-label="button">
+            <div class="grey">
+              <div class="scissors_img"></div>
+            </div>
+          </a>
+        </div>
+        <!-- middle btn -->
+        <div class="mid">
+          <!-- spock -->
+          <a href="spockpage.html" class="spock" aria-label="button">
+            <div class="grey">
+              <div class="spock_img"></div>
+            </div>
+          </a>
+          <!-- paper -->
+          <a href="paperpage.html" class="paper" aria-label="button">
+            <div class="grey">
+              <div class="paper_img"></div>
+            </div>
+          </a>
+        </div>
+        <div class="bottom">
+          <a href="lizardpage.html" class="lizard" aria-label="button">
+            <div class="grey">
+              <div class="lizard_img"></div>
+            </div>
+          </a>
+          <a href="rockpage.html" class="rock" aria-label="button">
+            <div class="grey">
+              <div class="rock_img"></div>
+            </div>
+          </a>
+        </div>
+      </main>
+      <!-- button -->
+      <div class="btn">
+        <button>Rules</button>
+      </div>
+      <!-- modal for rules -->
+      <div class="modal">
+        <div class="modal-content">
+          <h2>RULES</h2>
+          <img src="./images/image-rules-bonus.svg" alt="image-rules-bonus" />
+          <button id="close"></button>
+        </div>
+      </div>
+    </body>
+  </head>
+  <body>
+    <script src="./src/index.js" type="module"></script>
+  </body>
+</html>
