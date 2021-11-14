@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/iamtridwan/rockpaperscissors)
-- Live Site URL: [Add live site URL here](https://game-rock.netlify.app)
+- Solution URL: (https://github.com/iamtridwan/rockpaperscissors)
+- Live Site URL:(https://game-rock.netlify.app)
 
 ## My process
 
@@ -50,7 +50,7 @@ This is the bonus part of the project, and so I would love to include the other 
 
 ### Useful resources
 
-- [HTML Storage API](https://www.w3schools.org) - This helped me figure how to store persistent data for latter reference.
+- [HTML Storage API](https://www.w3schools.com) - This helped me figure how to store persistent data for latter reference.
 
 ## Author
 
