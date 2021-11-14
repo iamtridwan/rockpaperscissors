@@ -1,7 +1,7 @@
 let scoreText = document.querySelector("header h1");
 
 // create initial start values for score
-if (sessionStorage.length <= 1) {
+if (sessionStorage.length === 0) {
   sessionStorage.setItem("score", 0);
 } else {
   scoreText.textContent = sessionStorage.getItem("score");
