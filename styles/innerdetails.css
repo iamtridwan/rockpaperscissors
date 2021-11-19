@@ -71,12 +71,12 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: 600;
-  font-size:1.8rem;
+  font-size: 2rem;
 }
 .play_again button {
   background-color: #fff;
   color: var(--DarkText);
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   width: 50%;
 }
